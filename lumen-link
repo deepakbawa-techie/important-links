@@ -36,6 +36,9 @@ php artisan db:seed
 https://arjunphp.com/laravel-create-controller-model-migration-one-artisan-command/
 Artisan is the command-line interface included with Laravel. It provides a number of helpful commands that can assist you while you build your application. Here I am gonna show you a command which will generate controller, modal and migration files.
 
+//THIS IS MORE FEASIBLE
+php artisan make:model Todo -a
+
 php artisan make:model Modelname -crm
 php artisan make:model Modelname -crm
 As you can see, actually the command is for creating modal but by passing -crm arguments we can generate controller and migration files.
